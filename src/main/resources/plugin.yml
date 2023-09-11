@@ -1,0 +1,50 @@
+name: test_plugin
+version: '${project.version}'
+main: org.spigot.test_plugin.Test_plugin
+api-version: '1.19'
+
+commands:
+  kazino:
+    description: kazino
+    aliases: h
+    usage: /kazino
+
+  set:
+    description: set
+    aliases: h
+    usage: /set
+
+  startgame:
+    description: startgame
+    aliases: h
+    usage: /startgame
+
+  killmobs:
+    description: killmobs
+    aliases: h
+    usage: /killmobs
+
+  rebild:
+    description: rebild
+    aliases: h
+    usage: /rebild
+
+  gamemod:
+    description: gamemod
+    aliases: h
+    usage: /gamemod
+
+  comms:
+    description: comms
+    aliases: h
+    usage: /comms
+
+  endgame:
+    description: endgame
+    aliases: h
+    usage: /endgame
+
+  acceptchc:
+    description: acceptchc
+    aliases: h
+    usage: /acceptchc

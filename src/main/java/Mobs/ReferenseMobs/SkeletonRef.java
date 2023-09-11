@@ -1,0 +1,54 @@
+package Mobs.ReferenseMobs;
+
+import CustomGame.GamePlayer;
+import Mobs.MobRef;
+import org.bukkit.entity.LivingEntity;
+import org.bukkit.entity.Skeleton;
+import org.bukkit.entity.Zombie;
+
+public class SkeletonRef extends MobRef {
+    String main = "Skeleton";
+    private double health = 10;
+    private double damage = 2;
+    private double upgrade = 1;
+    private String unicode = "";
+    private GamePlayer player;
+    public String GetEntity(){
+
+        return main;
+    }
+    public double GetUpgradePropetry(){
+        return upgrade;
+    }
+
+    public double getHealth() {
+        return health;
+    }
+
+    public void setHealth(double health) {
+        this.health = health;
+    }
+
+    public double getDamage() {
+        return damage;
+    }
+
+    public void setDamage(double damage) {
+        this.damage = damage;
+    }
+    public String getUnicode() {
+        return unicode;
+    }
+
+    public void setUnicode(String unicode) {
+        this.unicode = unicode;
+    }
+
+    public GamePlayer getPlayer() {
+        return player;
+    }
+
+    public void setPlayer(GamePlayer player) {
+        this.player = player;
+    }
+}
